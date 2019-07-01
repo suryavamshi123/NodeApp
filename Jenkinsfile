@@ -8,7 +8,7 @@ pipeline {
     }
     stage('dockerbuild') {
       steps {
-        sh 'docker build -t suryavamshi123/nodeapp .'
+        bat 'C:\\Users\\surya\\Desktop\\surya\\Devops\\Practice\\jenkins\\command'
       }
     }
   }
